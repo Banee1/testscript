@@ -72,7 +72,7 @@ end)
 
 function messagebox(text, delay)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "JayHub";
+        Title = "ExplorerHub";
         Text = text;
         Duration = delay;
     })    
@@ -256,9 +256,9 @@ DiscordCreditsLabel1 = lib:CreateLabel("Jack1214060#5890", DiscordTab)
 DiscordCreditsLabel2 = lib:CreateLabel("iFergggg#0328", DiscordTab)
 McDiscordBtn = lib:CreateButton("Copy Discord", DiscordTab, function()
     if syn then
-        syn_clipboard_set("https://jack1214060.xyz/jayhub/discord")
+        syn_clipboard_set("rick roll")
     else
-        setclipboard("https://jack1214060.xyz/jayhub/discord")
+        setclipboard("rick roll")
     end
     messagebox("Discord Server copied to clipboard", 3)
 end)
