@@ -18,7 +18,7 @@ function Library:CreateMain()
     local MainUICorner = Instance.new("UICorner")
     local Containers = Instance.new("Folder")
 
-    JayHub.Name = "TestHub"
+    JayHub.Name = "ExplorerHub"
     JayHub.Parent = game.CoreGui
     JayHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -45,7 +45,7 @@ function Library:CreateMain()
     Title.Position = UDim2.new(0.1557789, 0, 0, 0)
     Title.Size = UDim2.new(0, 169, 0, 50)
     Title.Font = Enum.Font.GothamSemibold
-    Title.Text = "TestHub"
+    Title.Text = "ExplorerHub"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 28.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -181,7 +181,7 @@ function Library:CreateMain()
     Title.Position = UDim2.new(0.116563082, 0, 0, 0)
     Title.Size = UDim2.new(0, 155, 0, 23)
     Title.Font = Enum.Font.GothamSemibold
-    Title.Text = "JayHub"
+    Title.Text = "ExplorerHub"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 17.000
     
@@ -208,22 +208,9 @@ function Library:CreateMain()
     Credits2.Position = UDim2.new(0.116563082, 0, 0.481416315, 0)
     Credits2.Size = UDim2.new(0, 155, 0, 23)
     Credits2.Font = Enum.Font.GothamSemibold
-    Credits2.Text = "Test"
+    Credits2.Text = "Bane"
     Credits2.TextColor3 = Color3.fromRGB(255, 255, 255)
     Credits2.TextSize = 10.000
-    
-    Credits3.Name = "Credits3"
-    Credits3.Parent = DownloaderMainFrame
-    Credits3.Visible = false
-    Credits3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Credits3.BackgroundTransparency = 1.000
-    Credits3.Position = UDim2.new(0.116563082, 0, 0.675860703, 0)
-    Credits3.Size = UDim2.new(0, 155, 0, 23)
-    Credits3.Font = Enum.Font.GothamSemibold
-    Credits3.Text = "Test"
-    Credits3.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Credits3.TextSize = 10.000
-
 
 
     function StartUp()
@@ -247,7 +234,7 @@ function Library:CreateMain()
         Main.Visible = true
         Main:TweenSize(UDim2.new(0, 643, 0, 407),  Enum.EasingDirection.Out,  Enum.EasingStyle.Quint, 0.5, true)
         game.StarterGui:SetCore("SendNotification", {
-            Title = "TestHub";
+            Title = "ExplorerHub";
             Text = "Press Right Shift to Open/Close";
             Duration = 3;
         })
