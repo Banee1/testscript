@@ -252,8 +252,7 @@ end)
 
 -- Discord Tab
 DiscordCreditsLabel = lib:CreateLabel("Credits:", DiscordTab)
-DiscordCreditsLabel1 = lib:CreateLabel("Jack1214060#5890", DiscordTab)
-DiscordCreditsLabel2 = lib:CreateLabel("iFergggg#0328", DiscordTab)
+DiscordCreditsLabel1 = lib:CreateLabel("Banee", DiscordTab)
 McDiscordBtn = lib:CreateButton("Copy Discord", DiscordTab, function()
     if syn then
         syn_clipboard_set("rick roll")
