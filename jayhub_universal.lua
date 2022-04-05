@@ -32,7 +32,7 @@ end)
 
 function messagebox(text, delay)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "JayHub";
+        Title = "TestHub";
         Text = text;
         Duration = delay;
     })    
@@ -43,7 +43,7 @@ end
 
 -- Home Tab
 
-HomeLabel = lib:CreateLabel("Thank you for using JayHub", HomeTab)
+HomeLabel = lib:CreateLabel("Thank you for using TestHub", HomeTab)
 
 DiscordCreditsLabel = lib:CreateLabel("Credits:", HomeTab)
 DiscordCreditsLabel1 = lib:CreateLabel("Test", HomeTab)
