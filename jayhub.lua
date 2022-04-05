@@ -44,11 +44,11 @@ local success, response = pcall(function()
     for key, value in pairs(GameTable) do
         if game.PlaceId == tonumber(key) then
             GameFound = true
-            ScriptData = SendRequest("https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/jayhub_"..value..".lua")
+            ScriptData = SendRequest("https://raw.githubusercontent.com/Banee1/testscript/main/jayhub_"..value..".lua")
         end
     end
     if not GameFound then
-        ScriptData = SendRequest("https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/jayhub_universal.lua")
+        ScriptData = SendRequest("https://raw.githubusercontent.com/Banee1/testscript/main/jayhub_universal.lua")
     end
     if ScriptData and ScriptData.Body then
         loadstring(ScriptData.Body)()
