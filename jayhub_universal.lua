@@ -6,7 +6,7 @@ Utils:SetupCompatibility()
 function GetLib()
     local response = http_request(
     {
-        Url = "https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/jayhub_uilib.lua",  -- This website helps debug HTTP requests
+        Url = "https://raw.githubusercontent.com/Banee1/testscript/main/jayhub_uilib.lua",  -- This website helps debug HTTP requests
         Method = "GET"
     }
     )
