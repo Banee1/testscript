@@ -207,10 +207,10 @@ end
 HomeLabel = lib:CreateLabel("Thank you for using JayHub", HomeTab)
 
 DiscordCreditsLabel = lib:CreateLabel("Credits:", HomeTab)
-DiscordCreditsLabel1 = lib:CreateLabel("Jack1214060#5890", HomeTab)
-DiscordCreditsLabel2 = lib:CreateLabel("iFergggg#0328", HomeTab)
+DiscordCreditsLabel1 = lib:CreateLabel("Bane", HomeTab)
+DiscordCreditsLabel2 = lib:CreateLabel("", HomeTab)
 DiscordBtn = lib:CreateButton("Copy Discord", HomeTab, function()
-    setclipboard("https://discord.gg/JeTzZsDNWN")
+    setclipboard("https://discord.gg/")
     messagebox("Discord Server copied to clipboard", 3)
 end)
 
